@@ -1,0 +1,167 @@
+body {
+    background-color: white;
+    margin: 0;
+    font-family: 'Lato';
+    font-weight: 400;
+}
+.nav-bar > h2 {
+    font-family: 'Sacramento';
+    color: #de1bc7;
+}
+
+.nav-bar {
+     display: flex;
+     justify-content:space-around;
+     background-color: white;
+     padding-top: 15px;
+     font-family: 'Roboto';
+     flex-wrap: wrap;
+}
+h1 {
+    color: #de1bc7;
+    font-weight: 700;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 20px;
+}
+
+button {
+    height: 40px;
+    width: 80px;
+}
+
+.btn-1 {
+    background-color: white;
+    border: none;
+}
+
+.btn-2 {
+    background-color: #de1bc7;
+    border: none;
+    color: #fff;
+    border-radius: 3px;
+}
+
+.btn-1:hover {
+    color: #de1bc7;
+    cursor: pointer;
+}
+
+.btn-2:hover {
+    background-color: #ed6dde;
+    cursor: pointer;
+}
+
+.main {
+    padding: 80px 0px 20px 30px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 7px;
+    
+}
+
+hr{
+    height: 1px;
+    background-color: #ccc;
+    border: none;
+}
+
+.cards {
+    border: 1px solid #E5E4E2;
+    border-radius: 10px;
+    background-color: #faffff;
+    min-width: 300px;
+    min-height: 250px;
+}
+.cards:hover {
+    background-color: white;
+    box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.5);
+    transform: translateY(-5px);
+}
+
+img {
+    border-radius: 3px;
+    width: 300px;
+    height: 200px;
+    padding: 0;
+}
+
+.cards > h2, p {
+    padding-left: 10px;
+}
+
+.amount {
+    display: flex;
+    justify-content: space-between;
+}
+
+.amount > p {
+    padding: 0px 8px;
+}
+
+.amount > p> a {
+    color: #de1bc7;
+    text-decoration: none;
+}
+
+.all-events {
+    text-align: center;
+}
+
+.all-events > button {
+    width: 300px;
+    height: 60px;
+    background-color: #de1bc7;
+    margin: 40px 0px;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    border-radius: 10px;
+
+}
+
+.all-events > button > a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.all-events > button:hover {
+    background-color: #ebaee3;
+}
+
+.all-footer {
+    background-color: #f2ceee;
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.footer-container {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+
+.logo {
+    font-family: 'Sacramento';
+    color: #de1bc7;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.footer-container > div > .top-p {
+    color: #de1bc7;
+}
+
+.copy {
+    padding-left: 100px;
+}
